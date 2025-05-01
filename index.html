@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>問卷自動導向中...</title>
+  <script>
+    // 隨機產生 0~1 之間的數字
+    const rand = Math.random();
+
+    if (rand < 0.25) {
+      // 25% 導向 AI-1（版本 A，有前引導）
+      window.location.href = "https://qualtricsxmnkmjvbv35.qualtrics.com/jfe/form/SV_3EgnU8FfphK1Lym";
+    } else if (rand < 0.5) {
+      // 25% 導向 AI（版本 B，後引導）
+      window.location.href = "https://qualtricsxmnkmjvbv35.qualtrics.com/jfe/form/SV_aeOeVIWmSLbIOwe";
+    } else {
+      // 50% 導向 Human 組
+      window.location.href = "https://qualtricsxmnkmjvbv35.qualtrics.com/jfe/form/SV_8vRyKXh1qMC1nZc";
+    }
+  </script>
+</head>
+<body>
+  <p>正在自動前往問卷，請稍候...</p>
+</body>
+</html>
